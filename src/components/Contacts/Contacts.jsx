@@ -9,7 +9,7 @@ export const Contacts = ({ contacts, onDeleteContacts }) => {
           return (
             <ContactsListEl key={el.id}>
               {el.name} <span>{el.number}</span>
-              <ContactsBtn type="button" onClick={()=> onDeleteContacts(el.id)}>Delet</ContactsBtn>
+              <ContactsBtn type="button" onClick={()=> onDeleteContacts(el.id)}>Delete</ContactsBtn>
             </ContactsListEl>
           );
         })}

@@ -3,6 +3,8 @@ import styled from '@emotion/styled';
 export const Input = styled.input`
   width: 300px;
   height: 30px;
+  display: block;
+  font-size: 20px;
   border-radius: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -18,8 +20,9 @@ export const Input = styled.input`
 export const FormBtn = styled.button`
   margin: 0 auto;
   display: block;
-  margin-top: 10px;
-  font-size: 20px;
+  background-color: #dbe041;
+  margin-top: 30px;
+  font-size: 30px;
   padding: 10px;
   border-radius: 5px;
   border: none;

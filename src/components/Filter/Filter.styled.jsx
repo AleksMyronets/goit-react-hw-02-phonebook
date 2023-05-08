@@ -3,6 +3,8 @@ import styled from '@emotion/styled';
 export const InputFilter = styled.input`
   width: 300px;
   height: 30px;
+  display: block;
+  font-size: 20px;
   border-radius: 10px;
   margin-top: 10px;
   border: none;
