@@ -1,7 +1,7 @@
 import styled from "@emotion/styled"
 
 export const ContainerForm = styled.div`
-width: 400px;
+width: 500px;
 display: flex;
 flex-direction: column;
 -webkit-box-align: center;
