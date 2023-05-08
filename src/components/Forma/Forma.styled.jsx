@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Input = styled.input`
-  width: 100%;
+  width: 300px;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
   border: none;
@@ -11,11 +11,13 @@ export const Input = styled.input`
   outline: none;
   :hover,
   :focus {
-    border: 1px solid #44d7ff;
+    border: 2px solid green;
   }
 `;
 
 export const FormBtn = styled.button`
+  margin: 0 auto;
+  display: block;
   margin-top: 10px;
   font-size: 20px;
   padding: 10px;
@@ -23,6 +25,6 @@ export const FormBtn = styled.button`
   border: none;
   box-shadow: -2px 2px 4px 1px rgba(34, 60, 80, 0.37);
   :hover {
-    background-color: #e9e9e9;
+    background-color: green;
   }
 `;
